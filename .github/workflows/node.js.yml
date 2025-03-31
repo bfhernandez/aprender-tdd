@@ -26,4 +26,5 @@ jobs:
         run : ls -la
         
       - run : npm ci --legacy-peer-deps --no-fund --no-audit
+      - run : npm run lint
       - run : npm run build
