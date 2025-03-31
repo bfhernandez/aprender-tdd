@@ -15,3 +15,7 @@ jobs:
     steps:
       - name : 'Hello World'
         run : echo "Ola de mar"
+      - name : Dime la fecha
+        run : date
+      - name : muestra el contenido del directorio
+        run : ls -la
